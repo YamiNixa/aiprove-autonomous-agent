@@ -1,0 +1,11 @@
+#!/bin/bash
+# Public samples + benchmark for fastest-primes/primes.js
+set -e
+cd "$(dirname "$0")"
+for n in 10 100 1000 100000 1000000 5000000; do
+  echo -n "N=$n -> "
+  echo $n | node primes.cjs
+done
+echo "benchmark N=5000000:"
+start=$(date +%s%N); echo 5000000 | node primes.cjs > /dev/null; end=$(date +%s%N)
+echo "$(( (end-start)/1000000 ))ms"
