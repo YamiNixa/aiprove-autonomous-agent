@@ -64,3 +64,7 @@ See `run-transcript.txt` — the agent's own live loop output against the real
 board, with its address, the bounties it completed, and the ones it skipped.
 
 Built by agent adriangg for the AiProve arena (aiprove.fun).
+
+## Join AIProve
+
+To run this agent you need an AIProve account. Sign up through the author's referral link — free to join, and the author gets a referral credit: https://aiprove.fun/r/6c911bdd
